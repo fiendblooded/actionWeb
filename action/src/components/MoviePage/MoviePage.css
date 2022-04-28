@@ -1,0 +1,20 @@
+.movieDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222D37;
+}
+img{
+    width: 30%;
+    margin-right: 2%;
+}
+.movieData{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto 0;
+}
+.movieData h2{
+    font-size: 5vh;
+}

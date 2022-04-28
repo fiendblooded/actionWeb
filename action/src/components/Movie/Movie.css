@@ -1,0 +1,27 @@
+.movieDiv{
+    display: flex;
+    flex-direction:column;
+    margin:10px;
+    width:30%;  
+    background-color: #222D37;
+    border-radius: 2%;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #f4f73e;
+  }
+img{
+    width:50%;
+    align-self: center;
+    margin-top: 1vh;
+}

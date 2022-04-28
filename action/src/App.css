@@ -1,0 +1,55 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin:auto;
+  
+}
+.App button{
+  height:10%;
+  margin: 0 1% 0 1%;
+  text-align: center;
+}
+.container{
+  background-color: #141B21;
+}
+.movieList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:fit-content;
+}
+header{
+  text-align: center;
+  font-size: 5vh;
+  color: #fff;
+  
+}
+header h1{
+  margin:0;
+  line-height: 1;
+}
+header p{
+  margin:0;
+  line-height: 1;
+}
+
+.PageDiv{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.PageDiv h2{
+  font-size: 3vh;
+  color: #fff;
+}
+button{
+  width: 11%;
+  height: 6%;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;
+  border: 3px solid #91C9FF;
+  outline: none;
+}
