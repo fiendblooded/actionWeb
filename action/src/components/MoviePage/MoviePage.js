@@ -4,8 +4,6 @@ import './MoviePage.css'
 import {getMovie} from '../../App'
 
 function MoviePage() {
-    // We can use the `useParams` hook here to access
-    // the dynamic pieces of the URL.
     let { id } = useParams();
     const [details,setDetails] = useState({})
 
